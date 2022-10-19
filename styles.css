@@ -3,6 +3,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
+  font-family: "roboto";
 }
 
 .header {
@@ -87,9 +89,7 @@ body {
 .information-row .header-text {
   font-size: 36px;
   font-weight: 800;
-  font-family: "roboto";
   color: #1F2937;
-  font-family: "roboto";
   margin: 28px 0;
 }
 
@@ -120,9 +120,32 @@ body {
 .info-text {
   text-align: center;
   font-size: 18px;
-  font-family: "roboto";
   color: #1f2937;
   margin: 0;
+}
+
+.testimonial-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #e5e7eb;
+
+  padding: 80px 280px;
+
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.testimonial-row p {
+  font-size: 24px;
+  font-weight: 800;
+  font-style: normal;
+
+  margin-left: auto;
 }
 
 .footer {
