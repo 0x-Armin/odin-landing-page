@@ -148,6 +148,59 @@ body {
   margin-left: auto;
 }
 
+.call-to-action {
+  background-color: #3882f6;
+  margin: 120px 180px;
+  height: 200px;
+
+  border-radius: 0.5em;
+
+  display: flex;
+  justify-content: center;
+}
+
+.cta-left-side {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 600;
+
+  padding-left: 120px;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cta-left-side p {
+  margin: 0;
+
+  font-size: 20px;
+  font-weight: normal;
+  color: #d3d3d3;
+}
+
+.cta-right-side {
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-right-side button {
+  font-size: 18px;
+  color: #f9faf8;
+  padding: 8px 30px;
+
+  background-color: #3882f6;
+
+  border-style: solid;
+  border-color: #f9faf8;
+  border-width: 2px;
+  border-radius: 0.8em;
+}
+
 .footer {
   margin-top: auto;
   display: flex;
